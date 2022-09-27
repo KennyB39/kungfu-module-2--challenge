@@ -4,21 +4,24 @@
   list-style: none;
   text-decoration: none;
 }
-head{
-  width: 100%;
-  height: 300px;
-  margin: 600px;
-}
 .header{
   width: 100%;
   height: 80px;
-  display: block;
+  display: flex;
+  justify-content: space-between;
   background-color: olive;
+  align-items: center;
 }
-.inner_header{
+.navigation{ 
+display: flex;
+width: 500px;
+margin-right: 10px;
+justify-content: space-between;
+}
+/* .inner_header{
   width: 1000px;
   height: 100%;
-  display: grid;
+  display: block;
   margin: 0 auto;
 }
 .navigation{
@@ -39,27 +42,32 @@ head{
   font-family: Arial, Helvetica, sans-serif;
   font-size: 16px;
   text-indent: 50%;
-}
+} */
  .About me{
   list-style-type: none;
   margin: 100;
   padding: 150;
   overflow: hidden;
 }
-track{
-  padding-top: 1px;
+h2{
+  /* padding-top: 1px;
   padding-right: 1500px;
   padding-bottom: 150px;
   padding-left: 80px;
   font-size: 75%;
-  display: inline-block;
+  display: inline-block; */
   background-color: rgb(214, 191, 160);
+  height: 200px;
+  text-align:right;
+  padding-top: 100px; 
+  vertical-align: middle;
 }
 footer{
   margin: auto;
   width: 75%;
   border: 3px solid rgb(255, 255, 255);
   padding: 10px;
+  display: grid;
 }
 
 
@@ -72,7 +80,7 @@ ul {
 
  
   body{
-    /*font-family: 'Times New Roman', Times, serif;
+    font-family: 'Times New Roman', Times, serif;
     font-size: larger;
   }
   
