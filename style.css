@@ -1,23 +1,35 @@
-*{
+* {
   margin: 0;
   padding: 0;
   list-style: none;
   text-decoration: none;
 }
-.header{
+
+.header {
   width: 100%;
   height: 80px;
   display: flex;
   justify-content: space-between;
   background-color: olive;
   align-items: center;
+  color: aliceblue;
 }
-.navigation{ 
-display: flex;
-width: 500px;
-margin-right: 10px;
-justify-content: space-between;
+
+.navigation {
+  border-bottom: 3px solid rgb(17, 17, 17);
+  border-collapse: separate;
 }
+
+.navigation {
+  display: flex;
+  width: 500px;
+  margin-right: 10px;
+  justify-content: space-between;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 120%;
+  overscroll-behavior: inherit;
+}
+
 /* .inner_header{
   width: 1000px;
   height: 100%;
@@ -43,13 +55,21 @@ justify-content: space-between;
   font-size: 16px;
   text-indent: 50%;
 } */
- .About me{
+h5{
+
+}
+h6 {
   list-style-type: none;
   margin: 100;
   padding: 150;
   overflow: hidden;
+  margin-left: 45%;
+  font-size: 100%;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 400;
 }
-h2{
+
+h2 {
   /* padding-top: 1px;
   padding-right: 1500px;
   padding-bottom: 150px;
@@ -58,29 +78,34 @@ h2{
   display: inline-block; */
   background-color: rgb(214, 191, 160);
   height: 200px;
-  text-align:right;
-  padding-top: 100px; 
+  text-align: right;
+  padding-top: 100px;
   vertical-align: middle;
 }
-footer{
-  margin: auto;
-  width: 75%;
+
+footer {
+  position: fixed;
+  bottom: 0;
   border: 3px solid rgb(255, 255, 255);
   padding: 10px;
-  display: grid;
+  display: flex;
+  justify-content: space-between;
+  width: 500px;
+  margin-inline: 1000px ;
+  align-items: center;
+
 }
 
 
 
 ul {
-    /*list-style-type: none;
+  /*list-style-type: none;
     margin: 0;
     padding: 0;*/
-  }
+}
 
- 
-  body{
-    font-family: 'Times New Roman', Times, serif;
-    font-size: larger;
-  }
-  
+
+body {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: larger;
+}
