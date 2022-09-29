@@ -1,3 +1,6 @@
+html{
+  height: 100%;
+}
 * {
   margin: 0;
   padding: 0;
@@ -78,6 +81,12 @@ a.link{
   margin-left: 3rem;
   margin-right: 80px;
 }
+body{
+  margin: 0;
+  line height: 1.6;
+
+  min-height: 100%;
+}
 
   /* .p{
   list-style-type: none;
@@ -103,18 +112,24 @@ h2 {
   padding-top: 100px;
   vertical-align: middle;
 }
+ul.contact-info{
+  text-align: center;
+  display: inline-block;
+}
+footer{
+
+}
 
 footer {
-  position: fixed;
-  bottom: 0;
-  border: 3px solid rgb(255, 255, 255);
-  padding: 10px;
-  display: flex;
-  justify-content: space-between;
-  width: 500px;
-  margin-inline: 1000px ;
-  align-items: center;
+  margin: auto; 
+  background-color: rgb(214, 191, 160);
+  color: aliceblue;
 
+  padding: 1em;
+
+   display: flex;
+  flex-direction: column;
+  margin-inline: 22px ; 
 }
 
 
